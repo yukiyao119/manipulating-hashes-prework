@@ -10,6 +10,6 @@ def second_challenge
   # groceries.collect do |category, item| 
   #   category.values 
   
-  groceries.values
+  groceries.values.flatten
 
 end
